@@ -1,0 +1,63 @@
+CREATE TABLE countries(
+id SERIAL PRIMARY KEY,
+country_name VARCHAR(255) NOT NULL,
+alpha_2_code VARCHAR(50) NOT NULL,
+alpha_3_code VARCHAR(50) NOT NULL
+);
+
+
+
+
+
+INSERT INTO countries (country_name, alpha_2_code, alpha_3_code)
+VALUES 
+    ('France','FR','FRA'),
+    ('Spain', 'ES', 'ESP'),
+    ('United States of America','US', 'USA'),
+    ('Italy','IT','ITA'),
+    ('China','CN','CHN'),
+    ('Mexico','MX','MEX'),
+    ('United Kingdom','GB','GBR'),
+    ('Germany','DE','DEU'),
+    ('Thailand','TH','THA'),
+    ('Turkey','TR','TUR'),
+    ('Austria','AT','AUT'),
+    ('Japan','JP','JPN'),
+    ('Greece','GR','GRC'),
+    ('Canada','CA','CAN'),
+    ('Australia','AU','AUS'),
+    ('Russia','RU','RUS'),
+    ('India','IN','IND'),
+    ('Brazil','BR','BRA'),
+    ('Netherlands','NL','NLD'),
+    ('South Korea','KR','KOR'),
+    ('Argentina','AR','ARG'),
+    ('Indonesia','ID','IDN'),
+    ('South Africa','ZA','ZAF'),
+    ('Egypt','EG','EGY'),
+    ('Vietnam','VN','VNM'),
+    ('Portugal','PT','PRT'),
+    ('Morocco','MA','MAR'),
+    ('Croatia','HR','HRV'),
+    ('New Zealand','NZ','NZL'),
+    ('Peru','PE','PER'),
+    ('Czech Republic','CZ','CZE'),
+    ('Switzerland','CH','CHE'),
+    ('Ireland','IE','IRL'),
+    ('Sweden','SE','SWE'),
+    ('Norway','NO','NOR'),
+    ('Denmark','DK','DNK'),
+    ('Belgium','BE','BEL'),
+    ('Singapore','SG','SGP'),
+    ('Malaysia','MY','MYS'),
+    ('Philippines','PH','PHL'),
+    ('Poland','PL','POL'),
+    ('Hungary','HU','HUN'),
+    ('Saudi Arabia','SA','SAU'),
+    ('Ukraine','UA','UKR'),
+    ('Israel','IL','ISR'),
+    ('Romania','RO','ROU'),
+    ('Chile','CL','CHL'),
+    ('Pakistan','PK','PAK'),
+    ('Finland','FI','FIN'),
+    ('Ghana','GH','GHA');
